@@ -1,0 +1,14 @@
+{
+  "name": "queue",
+  "version": "1.0.0",
+  "description": "Queue a message that Claude reads only after it has finished the whole turn, not after the current tool call. Usage: /queue:next <message>.",
+  "author": {
+    "name": "zecod",
+    "url": "https://github.com/zecod"
+  },
+  "homepage": "https://github.com/zecod/claude-queue",
+  "repository": "https://github.com/zecod/claude-queue",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": ["queue", "next", "message", "turn", "slash-command", "workflow"]
+}
