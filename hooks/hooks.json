@@ -1,0 +1,16 @@
+{
+  "description": "After /queue:run, hands Claude the next task from .claude-queue.md each time it finishes.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/queue-stop.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
